@@ -1,0 +1,24 @@
+
+LIBRARY     ExtIO_HamLib.DLL
+
+EXPORTS
+    InitHW                        = _InitHW@12
+    OpenHW                        = _OpenHW@0
+    StartHW                       = _StartHW@4
+    StopHW                        = _StopHW@0
+    CloseHW                       = _CloseHW@0
+    SetHWLO                       = _SetHWLO@4
+    GetStatus                     = _GetStatus@0
+    SetCallback                   = _SetCallback@4
+
+    GetHWLO                       = _GetHWLO@0
+    GetHWSR                       = _GetHWSR@0
+    ShowGUI                       = _ShowGUI@0
+    HideGUI                       = _HideGUI@0
+    RawDataReady                  = _RawDataReady@16
+    TuneChanged                   = _TuneChanged@4
+    IFLimitsChanged               = _IFLimitsChanged@8
+    GetTune                       = _GetTune@0
+    GetMode                       = _GetMode@0
+    GetFilters                    = _GetFilters@12
+    ModeChanged                   = _ModeChanged@4
