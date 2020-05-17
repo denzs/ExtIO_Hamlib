@@ -76,14 +76,14 @@ add "ExtIO_HamLib.def"
 
 get mingw32
 
-´´´
+```
 apt install g++-mingw-w64-i686-win32
-´´´
+```
 
 Get Hamlib Package for Windows from https://hamlib.github.io/.
 Extract it and adapt path in build.sh
 
-Run ´´´build.sh´´´.
+Run ```build.sh```.
 
 ## Use HDSDR on Linux with rigctld
 
@@ -93,9 +93,9 @@ In ExtIO_HamLib.cfg use 127.0.0.1:4532 instead of comX.
 
 Run rigctld as you would normally do.
 Like (for KX3):
-´´´
+```
 rigctld -m 229 -r /dev/ttyUSB0
-´´´
+```
 
 Run HDSDR!
 
